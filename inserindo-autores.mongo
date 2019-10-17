@@ -4,10 +4,6 @@
 // É quase impossível acertar uma modelagem logo de primeira.
 
 
-
-
-
-
 db.autores.insertOne({
 
     nome: "Gabriel Ferreira",
