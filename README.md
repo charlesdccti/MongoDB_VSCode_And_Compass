@@ -4,17 +4,17 @@ Lembre-se de instalar o Visual Studio Code e a extensão CosmosDB antes de conti
 
 Para modelarmos o nosso blog no banco de dados, vamos criar um arquivo chamado inserindo-autores.mongo, neste arquivo, vamos digitar o comando para criar um autor:
 
-db.autores.insertOne({
+    db.autores.insertOne({
 
-    nome: "Gabriel Ferreira",
+        nome: "Gabriel Ferreira",
 
-    descricao: "Desenvolvedor, instrutor e criador de conteúdo na Alura e grupo Caelum.",
+        descricao: "Desenvolvedor, instrutor e criador de conteúdo na Alura e grupo Caelum.",
 
-    email: "gabs@caelum.com.br",
+        email: "gabs@caelum.com.br",
 
-    senha: "gabs1234"
+        senha: "gabs1234"
 
-})
+    })
 
 
 Vamos executar este comando e para inserir o resto dos autores, vamos executar os comandos no arquivo inserir-autores.mongo.
