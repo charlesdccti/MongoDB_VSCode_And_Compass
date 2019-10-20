@@ -1,4 +1,4 @@
-Faça o que eu fiz na aula
+# Faça o que eu fiz na aula
 
 Lembre-se de instalar o Visual Studio Code e a extensão CosmosDB antes de continuar.
 
@@ -53,3 +53,10 @@ db.autores.find({ "artigos.slug": "projeto-caelum-nas-faculdades"}, { "artigos.t
 Buscando todos os artigos do Gabriel Ferreira e retornando apenas o título e o conteúdo:
 
 db.autores.find({ "nome": "Gabriel Ferreira" }, { "artigos.titulo":1 , "artigos.conteudo":1})
+
+
+# O que aprendemos?
+
+- Vale a pena modelarmos o nosso banco de dados de acordo com a operação que fazemos com mais frequência
+- Aprender a migrar os dados é essencial para a modelagem.
+- É quase impossível acertar uma modelagem logo de primeira.
